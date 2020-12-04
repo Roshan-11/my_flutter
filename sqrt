@@ -1,0 +1,13 @@
+echo "enter the number"
+read i
+echo "$i sqrt is = $[$i*$i]"
+for ((j=1;$[$j*$j]<=i;j++));
+do
+k=$j
+done
+if (($i>=0))
+then
+	echo "$i square of number is = $k"
+else
+	echo "$i"
+fi

@@ -1,0 +1,6 @@
+echo "prog start"
+echo "enter the value of i:"
+read i
+echo "enter the value of j:"
+read j
+echo "sum = $[$i+$j]"

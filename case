@@ -1,0 +1,21 @@
+echo "enter the full sentance"
+echo "eg. 10 + 3"
+echo ""
+read i a j
+case $a in 
+	+)
+		echo "sum = $[$i+$j]"
+		;;
+	-)
+		
+		echo "Sub = $[$i-$j]"
+		;;
+	*)
+		
+		echo "mul = $[$i*$j]"
+		;;
+	/)
+		
+		echo "div = $[$i/$j]"
+		;;
+esac
